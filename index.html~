@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Kartik Arora</title>
+
+      <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<!-- / Begin Body -->
+<div class='swanky'>
+  <!-- / Introduction Block -->
+  <div class='swanky_title'>
+    <h1 >Kartik Arora</h1>
+    <p id = "about">Developer | Student</p>
+    <p></p>
+    <div class='swanky_title__social'>
+      <a href='https://www.Linkedin.com/kartikarora99' target='_blank'>
+        <div class='slide'>
+          <div class='arrow'>
+            <div class='stem'></div>
+            <div class='point'></div>
+          </div>
+        </div>
+        <img src='https://image.flaticon.com/icons/svg/34/34227.svg'>
+        self.Linkedin ( )
+      </a>
+    </div>
+    <div class='swanky_title__social'>
+      <a href='https://www.github.com/ktech99' target='_blank'>
+        <div class='slide'>
+          <div class='arrow'>
+            <div class='stem'></div>
+            <div class='point'></div>
+          </div>
+        </div>
+        <img src='https://image.flaticon.com/icons/svg/25/25231.svg'>
+        self.Github ( )
+      </a>
+    </div>
+  </div>
+  <!-- Side menu -->
+  <div class='swanky_wrapper'>
+    <label onclick="loadAbout()">
+      <span id = 'about'>About Me</span>
+      <div class='bar'></div>
+    </label>
+    <label>
+      <span>Resume</span>
+      <div class='bar'></div>
+    </label>
+    <label>
+      <span>Projects</span>
+      <div class='lil_arrow'></div>
+      <div class='bar'></div>
+    </label>
+    <a href="https://ktech99.github.io/blog/">
+    <label>
+      <span>Blog</span>
+      <div class='bar'></div>
+    </label>
+  </a>
+    <label onclick="loadSkills()">
+      <span>Skills</span>
+    </div>
+    </label>
+</div>
+<!-- End side menu -->
+</body>
+<script type="text/javascript" src="js/index.js"></script>
+
+</html>
