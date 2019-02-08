@@ -9,3 +9,10 @@ function loadSkills(){
   about = document.getElementById('about');
   about.innerHTML = "<iframe src=\"skills.html\", frameBorder=\"0\" style=\"border:0;border-radius: 25px\" width=\"500\", height=\"800\", scrolling=\"no\"></iframe>";
 }
+
+
+function loadsquats(){
+  about = document.getElementById('about');
+  about.style.visible = "true";
+    about.innerHTML = "<img src = \"squatsPlot.jpg\">";
+}

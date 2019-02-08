@@ -63,12 +63,10 @@ body {
 
 }
 body .swanky {
-  -webkit-perspective: 600px;
-          perspective: 600px;
   width: 700px;
   position: absolute;
   margin: auto;
-  height: 360px;
+  height: 500px;
 }
 body .swanky_title {
   float: right;
@@ -76,7 +74,7 @@ body .swanky_title {
   width: 400px;
   color: white;
   position: relative;
-  top: 10px;
+  top: -120px;
 }
 body .swanky_title__social a {
   position: relative;
