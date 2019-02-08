@@ -11,8 +11,26 @@ function loadSkills(){
 }
 
 
-function loadsquats(){
+function loadSquats(){
   about = document.getElementById('about');
   about.style.visible = "true";
     about.innerHTML = "<img src = \"squatsPlot.jpg\">";
+}
+
+function loadDeadlift(){
+  about = document.getElementById('about');
+  about.style.visible = "true";
+    about.innerHTML = "<img src = \"deadliftPlot.jpg\">";
+}
+
+function loadBench(){
+  about = document.getElementById('about');
+  about.style.visible = "true";
+    about.innerHTML = "<img src = \"benchPlot.jpg\">";
+}
+
+function loadOverhead(){
+  about = document.getElementById('about');
+  about.style.visible = "true";
+    about.innerHTML = "<img src = \"overheadPlot.jpg\">";
 }
