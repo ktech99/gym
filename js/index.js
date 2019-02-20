@@ -14,23 +14,23 @@ function loadSkills(){
 function loadSquats(){
   about = document.getElementById('about');
   about.style.visible = "true";
-    about.innerHTML = "<img src = \"squatsPlot.jpg\">";
+    about.innerHTML = "<img width = 500px src = \"squatsPlot.jpg\">";
 }
 
 function loadDeadlift(){
   about = document.getElementById('about');
   about.style.visible = "true";
-    about.innerHTML = "<img src = \"deadliftPlot.jpg\">";
+    about.innerHTML = "<img width = 500px src = \"deadliftPlot.jpg\">";
 }
 
 function loadBench(){
   about = document.getElementById('about');
   about.style.visible = "true";
-    about.innerHTML = "<img src = \"benchPlot.jpg\">";
+    about.innerHTML = "<img width = 500px src = \"benchPlot.jpg\">";
 }
 
 function loadOverhead(){
   about = document.getElementById('about');
   about.style.visible = "true";
-    about.innerHTML = "<img src = \"overheadPlot.jpg\">";
+    about.innerHTML = "<img width = 500px src = \"overheadPlot.jpg\">";
 }

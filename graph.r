@@ -28,10 +28,10 @@ bench <-
 
 jpeg(
   "deadliftPlot.jpg",
-  width = 4,
-  height = 4,
+  width = 5,
+  height = 5,
   units = 'in',
-  res = 170
+  res = 300
 )
 ggplot(data = deadlift, aes(x = date, y = deadlift, group = 1)) +
   geom_line(color = "purple", size = 2) +
@@ -45,10 +45,10 @@ dev.off()
 
 jpeg(
   "overheadPlot.jpg",
-  width = 4,
-  height = 4,
+  width = 5,
+  height = 5,
   units = 'in',
-  res = 170
+  res = 300
 )
 ggplot(data = overhead, aes(x = date, y = overhead, group = 1)) +
   geom_line(color = "purple", size = 2) +
@@ -62,10 +62,10 @@ dev.off()
 
 jpeg(
   "squatsPlot.jpg",
-  width = 4,
-  height = 4,
+  width = 5,
+  height = 5,
   units = 'in',
-  res = 170
+  res = 300
 )
 ggplot(data = squats, aes(x = date, y = squats, group = 1)) +
   geom_line(color = "purple", size = 2) +
@@ -79,10 +79,10 @@ dev.off()
 
 jpeg(
   "benchPlot.jpg",
-  width = 4,
-  height = 4,
+  width = 5,
+  height = 5,
   units = 'in',
-  res = 170
+  res = 300
 )
 ggplot(data = bench, aes(x = date, y = bench, group = 1)) +
   geom_line(color = "purple", size = 2) +
